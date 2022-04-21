@@ -5,15 +5,10 @@
 let N = parseInt(prompt("Inserisci il numero N massimo"));
 
 // Calcolo i cubi dei numeri e li inserisco in una lista
-const numberList = [];
+
 for (let i = 1; i <= N; i++) {
     numberElement = i * i * i;
 
-    numberList.push(numberElement);
+    console.log(numberElement);
 
 }
-
-// Output
-result = numberList;
-
-console.log(numberList);
